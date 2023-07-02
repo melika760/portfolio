@@ -1,4 +1,24 @@
 .content{
     display: flex;
-    justify-content: flex-start;
+   margin: 100px;
+   padding: 30px;
+   animation: FadeIn 5s;
+   
+}
+.pr{
+    max-width: 60%;
+    line-height: 1.75rem;
+    
+}
+.pr h1{
+    box-shadow: 0 0 8px #ffd6d6;
+    background-color: #ffe9e9;
+    color: #f77d7d;
+    border-radius: 40px;
+    max-width: 50%;
+}
+
+.content img{
+  width: 250px;
+  height: 250px;
 }
