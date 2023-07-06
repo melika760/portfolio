@@ -1,0 +1,82 @@
+.nav{
+    position: fixed;
+    z-index: 2;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+.logo{
+    text-decoration: none;
+    color: #f77d7d;
+    font-family: 'Monument Extended';
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.MenueToggle{
+    cursor: pointer;
+}
+.Navoverley{
+    position: fixed;
+    background-color: #f77d7d;
+    z-index: -2;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0rem;
+    transition: all 2s cubic-bezier(0.16,1,0.3,1);
+}
+.Box{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    padding: 2.2em;
+    margin-right: 10px;
+}
+
+.BoxOpen{
+    background-color: #f1a5a5;
+}
+.lineTop , .linebottom , .lineCenter{
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #f1a5a5;
+    left: 0;
+    right: 0;
+    transform: rotate(0deg);
+    transition: all 0.4s;
+}
+.lineTop{
+    top: 2.2em;
+}
+.lineCenter{
+    bottom: 2.2em;
+}
+.linebottom{
+    bottom: 3em;
+}
+.lineTop.spin{
+    top: 2.35em;
+    transform: rotate(135deg);
+    background-color: #f77d7d;
+}
+.linebottom.spin{
+    bottom: 2.35em;
+    transform: rotate(225deg);
+    background-color: #f77d7d;
+}

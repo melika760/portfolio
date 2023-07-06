@@ -8,14 +8,15 @@
 .pr{
     max-width: 60%;
     line-height: 1.75rem;
+   
     
 }
-.pr h1{
-    box-shadow: 0 0 8px #ffd6d6;
-    background-color: #ffe9e9;
+.header{
     color: #f77d7d;
+    text-shadow: 0 4px 4px rgb(232, 195, 195);
     border-radius: 40px;
     max-width: 50%;
+    text-align: center;
 }
 
 .content img{
