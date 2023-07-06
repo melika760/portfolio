@@ -75,7 +75,7 @@
 .linebottom.spin{
     bottom: 2.35em;
     transform: rotate(225deg);
-    background-color: #f77d7d;
+    background-color: rgb(247, 125, 125);
 }
 .wrapper{
    position: absolute;
@@ -93,4 +93,7 @@
     color:white;
     text-decoration: none;
     font-size: 32px;
+}
+.backLink:hover{
+    text-shadow: 2px 2px 4px rgba(241, 234, 234, 0.6);
 }
