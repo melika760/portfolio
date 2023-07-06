@@ -7,18 +7,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 2em;
 }
-.logo{
-    text-decoration: none;
-    color: #f77d7d;
-    font-family: 'Monument Extended';
-    font-weight: bolder;
-    text-transform: uppercase;
-}
+
+
 .MenueToggle{
     cursor: pointer;
 }
@@ -43,10 +36,11 @@
     transition: 0.3s ease;
     padding: 2.2em;
     margin-right: 10px;
+    float: right;
 }
 
 .BoxOpen{
-    background-color: #f1a5a5;
+    background-color: white;
 }
 .lineTop , .linebottom , .lineCenter{
     margin: 0 auto;
@@ -70,6 +64,9 @@
 .linebottom{
     bottom: 3em;
 }
+.lineCenter.spin{
+    display: none;
+}
 .lineTop.spin{
     top: 2.35em;
     transform: rotate(135deg);
@@ -79,4 +76,21 @@
     bottom: 2.35em;
     transform: rotate(225deg);
     background-color: #f77d7d;
+}
+.wrapper{
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.backLink{
+    color:white;
+    text-decoration: none;
+    font-size: 32px;
 }
