@@ -14,18 +14,14 @@ h2{
     justify-content: space-around;
     margin: 3rem;
 }
-.ToDo{
-    width:40%;
-    border-radius: 40px;
-}
 .ToDo:hover{
     position: relative;
 }
 .ToDo img{
-    width: 70%;
+   width: 100%;
 }
-.weather{
-    width: 40%;
+.weather , .Dicationary, .ToDo{
+    width: 50%;
    border-radius: 40px;
 }
 .weather:hover{
@@ -34,33 +30,21 @@ h2{
 .weather img{
     width: 200px;
 }
- /* .content{
-    position: absolute;
-    background-color: rgba(21, 20, 20,0.8);
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color:white;
-    border-radius: 40px;
-    text-align: center;
-   line-height: 2rem;
-}
-.content p{
-    margin: 2rem;
-}
-.content button{
-    border: #f77d7d;
-   background-color: #f77d7d;
-   color: white;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 4px;
-} */
 
-.Dicationary{
-    width: 40%;
-    box-shadow:  3px 3px 3px 3px rgba(251, 64, 64, 0.7);
-    border-radius: 40px;
+
+.Dicationary img{
+    width: 100%;
+}
+.Dicationary:hover{
+    position: relative;
+}
+@media ((max-width: 990px)) {
+    .col{
+        display: block;
+    }
+    .weather , .Dicationary, .ToDo{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    
 }
