@@ -1,0 +1,31 @@
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+h2{
+    color: #f77d7d;
+    font-weight: bolder;
+    text-align: center;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.weather{
+    width: 40%;
+   box-shadow:  3px 3px 3px 3px rgba(251, 64, 64, 0.7);
+   border-radius: 40px;
+}
+.weather:hover{
+   backdrop-filter: blur(8px);
+   overflow: hidden;
+}
+
+.Dicationary{
+    width: 40%;
+    box-shadow:  3px 3px 3px 3px rgba(251, 64, 64, 0.7);
+    border-radius: 40px;
+}
