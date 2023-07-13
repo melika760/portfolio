@@ -8,14 +8,14 @@ import Button from "./UI/Button";
 export default function Projects(){
     const[Weatherhover,setweatherhover]=useState(false);
     const[Todohover,setTodohover]=useState(false);
-    const[dicthover,setdicthover]=useState(false)
+    const[dicthover,setdicthover]=useState(false);
 
     return(
        <Fragment>
         <h2>Projects</h2>
             <div className={styles.col}>
 <div className={styles.ToDo} onMouseEnter={()=>setTodohover(true)} onMouseLeave={()=>setTodohover(false)} >
-{Todohover &&  <Modal> <h3>To Do App</h3>
+{Todohover &&  <Modal className={styles.backdrop}> <h3>To Do App</h3>
     <p>Helps you to orgonize your works, developed by power of React</p>
     <Button>CheckOut</Button>
     <Button>GitHub</Button>

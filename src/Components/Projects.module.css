@@ -9,6 +9,7 @@ h2{
     font-weight: bolder;
     text-align: center;
 }
+
 .col{
     display: flex;
     justify-content: space-around;
@@ -16,6 +17,7 @@ h2{
 }
 .ToDo:hover{
     position: relative;
+  
 }
 .ToDo img{
    width: 100%;
@@ -38,6 +40,7 @@ h2{
 .Dicationary:hover{
     position: relative;
 }
+
 @media ((max-width: 990px)) {
     .col{
         display: block;
